@@ -1,0 +1,6 @@
+# Disable LF normalization for all files
+* -text
+
+# Disable delta compression for .zip and .jar files
+*.zip -delta
+*.jar -delta
